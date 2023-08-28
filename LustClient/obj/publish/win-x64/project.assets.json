@@ -1,0 +1,184 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Eziriz.Reactor.TrimHelper/6.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/TrimHelper.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/TrimHelper.dll": {}
+        }
+      },
+      "Memory.dll.x64/1.2.24": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net6.0/win-x64": {
+      "Eziriz.Reactor.TrimHelper/6.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/TrimHelper.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/TrimHelper.dll": {}
+        }
+      },
+      "Memory.dll.x64/1.2.24": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eziriz.Reactor.TrimHelper/6.9.0": {
+      "sha512": "v7FKBpPj2nAHgsIPwQmVtQOIAdE9Hi/4GaTW+KAwCnVJGUq7Y/Ae5Dp8CP+cmJSfsNVOe/+wkLKjlO+qmmgr6Q==",
+      "type": "package",
+      "path": "eziriz.reactor.trimhelper/6.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eziriz.reactor.trimhelper.6.9.0.nupkg.sha512",
+        "eziriz.reactor.trimhelper.nuspec",
+        "lib/net5.0/TrimHelper.dll",
+        "lib/net6.0/TrimHelper.dll",
+        "lib/net7.0/TrimHelper.dll"
+      ]
+    },
+    "Memory.dll.x64/1.2.24": {
+      "sha512": "fjpioQZXMFn5OoFJ2nPqhokBT0OMzH59PMiol0wP0TF0v3XL3cRFwgu/4C9tvwEs1Qxv5WeHcjw6S+z2zgpvRQ==",
+      "type": "package",
+      "path": "memory.dll.x64/1.2.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.txt",
+        "icon.png",
+        "lib/netstandard2.0/Memory.dll",
+        "lib/netstandard2.0/Memory.xml",
+        "memory.dll.x64.1.2.24.nupkg.sha512",
+        "memory.dll.x64.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Eziriz.Reactor.TrimHelper >= 6.9.0",
+      "Memory.dll.x64 >= 1.2.24"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\blood\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\blood\\source\\repos\\LustClient\\LustClient\\LustClient.csproj",
+      "projectName": "LustClient",
+      "projectPath": "C:\\Users\\blood\\source\\repos\\LustClient\\LustClient\\LustClient.csproj",
+      "packagesPath": "C:\\Users\\blood\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\blood\\source\\repos\\LustClient\\LustClient\\obj\\publish\\win-x64\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\blood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Eziriz.Reactor.TrimHelper": {
+            "target": "Package",
+            "version": "[6.9.0, )"
+          },
+          "Memory.dll.x64": {
+            "target": "Package",
+            "version": "[1.2.24, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.10, 6.0.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.10, 6.0.10]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.10, 6.0.10]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  }
+}

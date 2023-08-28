@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SCfCRSdd6/9rJTCXXgORHiFB2uyrmOn6aLEQpTig+v+6jNz54eLNE2Xg0G0T6XXLB+59/jrRe0SldBbTpmW+xQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\blood\\source\\repos\\LustClient\\LustClient\\LustClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blood\\.nuget\\packages\\eziriz.reactor.trimhelper\\6.9.0\\eziriz.reactor.trimhelper.6.9.0.nupkg.sha512",
+    "C:\\Users\\blood\\.nuget\\packages\\memory.dll.x64\\1.2.24\\memory.dll.x64.1.2.24.nupkg.sha512"
+  ],
+  "logs": []
+}

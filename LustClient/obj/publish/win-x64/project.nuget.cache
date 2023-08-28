@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "FuZtm75+qZdfKsD34sc6uYjmslS5kAMMm5u/dFrfNxfdoDvwzip6DGAu4ZLVB62Ah7Y3WjSQafR0ziTeeigGxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\blood\\source\\repos\\LustClient\\LustClient\\LustClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blood\\.nuget\\packages\\eziriz.reactor.trimhelper\\6.9.0\\eziriz.reactor.trimhelper.6.9.0.nupkg.sha512",
+    "C:\\Users\\blood\\.nuget\\packages\\memory.dll.x64\\1.2.24\\memory.dll.x64.1.2.24.nupkg.sha512",
+    "C:\\Users\\blood\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.10\\microsoft.netcore.app.runtime.win-x64.6.0.10.nupkg.sha512",
+    "C:\\Users\\blood\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.10.nupkg.sha512",
+    "C:\\Users\\blood\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.10\\microsoft.aspnetcore.app.runtime.win-x64.6.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

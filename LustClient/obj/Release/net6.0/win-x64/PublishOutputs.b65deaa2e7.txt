@@ -1,0 +1,2 @@
+C:\Users\blood\source\repos\LustClient\LustClient\bin\Release\net6.0\publish\LustClient\LustClient.pdb
+C:\Users\blood\source\repos\LustClient\LustClient\bin\Release\net6.0\publish\LustClient\LustClient.exe
